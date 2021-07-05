@@ -1,0 +1,45 @@
+def issymmetric(matrix,r,c):
+    for i in range(r):
+        for j in range(c):
+            if(matrix[i][j]!=matrix[j][i]):
+                return False
+    return True
+
+#Function to check whether given matrix is binary or not
+def isbinary(matrix,r,c):
+    for i in range(r):
+        for j in range(c):
+            if(matrix[i][j]!=0 and matrix[i][j]!=1):
+                return False
+    return True
+
+r=int(input('Enter number of rows in matrix:\n'))
+c=int(input('Enter number of columns in matrix\n'))
+matrix=[]
+print('Enter matrix rowwise')
+for i in range(r):
+    l=[]                #list to store one row of matrix
+    for j in range(c):
+        l.append(int(input()))
+    matrix.append(l)    #appending row list as one element in matrix list
+
+#printing matrix
+print('Matrix:\n')   
+for i in range(r):
+    for j in range(c):
+        print(matrix[i][j],end=' ')
+    print()
+
+if(r==c):
+    if(issymmetric(matrix,r,c)): 
+        print('Yes it is symmetric matrix:')
+    else:
+        print('No it is not symmetric matrix:')
+else:
+    print('No it is not symmetric matrix:') #rows and columns should be same
+
+if(isbinary(matrix,r,c)):
+    print('Yes it is binary matrix:')
+else:
+    print('No it is not binary matrix:')
+
