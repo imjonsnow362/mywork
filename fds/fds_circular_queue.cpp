@@ -1,3 +1,4 @@
+//Pizza parlor accepting maximum n orders. Orders are served in FCFS basis. Order once placed can’t be cancelled. Write C++ program to simulate the system using circular Queue. 
 #include<iostream>
 using namespace std;
 const int maximumord=5;
