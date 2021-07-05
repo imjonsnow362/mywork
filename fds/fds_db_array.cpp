@@ -1,4 +1,4 @@
-#include<iostream>
+//Create a structure for storing student information like, name, roll no., marks, grade. Create an array of capacity to hold details of 10 students and write a menu driven program to perform all operations mentioned in assignment. Search record operation can be linear or binary search.#include<iostream>
 using namespace std;
 
 struct student
