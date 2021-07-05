@@ -1,3 +1,4 @@
+//Implement polynomial using Doubly Linked List and perform  Addition/ Multiplication of Polynomials
 //working program 
 #include <iostream>
 using namespace std;
