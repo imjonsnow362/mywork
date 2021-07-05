@@ -1,3 +1,4 @@
+//Create a Singly linked list for employee data and perform a. insertion b. deletion c. search d. modify
 // program works and compiles succesfully 
 #include<iostream>
 #include <cstdio>
