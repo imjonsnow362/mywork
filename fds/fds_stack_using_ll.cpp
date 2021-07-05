@@ -1,3 +1,13 @@
+//
+//Perform implementation of STACK using Linked List
+
+//a. Push an element on to stack
+
+//b. Pop an element
+
+//c. Demonstrate overflow simulations on stack
+
+//d. Display stack
 //working code 
 #include<iostream>
 using namespace std;
