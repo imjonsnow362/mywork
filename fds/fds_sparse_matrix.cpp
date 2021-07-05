@@ -1,3 +1,4 @@
+//Accept conventional matrix and convert it into sparse matrix. Implement simple transpose and Fast transpose algorithms on sparse matrix.
 //only transpose part is to be fixed rest of the program works 
 #include <iostream>
 #include<math.h>
