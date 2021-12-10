@@ -1,0 +1,34 @@
+This is Pre-processor directive: #include <stdio.h>
+
+This is Keyword: int
+
+This is Function: main(
+
+This is Delimiter: )
+
+This is Delimiter: {
+
+this is single line Commments: // printf() displays the string inside quotation
+
+This is Function: printf(
+
+this is String:"Hello, World!"
+
+This is Delimiter: )
+
+This is Delimiter: ;
+
+This is Keyword: return
+
+This is Integer: 0
+
+This is Delimiter: ;
+
+This is Delimiter: }
+
+
+
+
+
+
+ Total Tokens = 14
